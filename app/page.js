@@ -22,6 +22,8 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import web7 from "../public/web7.png";
 import web8 from "../public/web8.png";
+import web9 from "../public/web9.png";
+import web10 from "../public/web10.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -202,7 +204,7 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
               <img
-                src="/web1.png"
+                src="/web8.png"
                 className="rounded-lg object-cover border border-black"
                 width={"100%"}
                 height={"100%"}
@@ -219,7 +221,7 @@ export default function Home() {
               /> */}
               <h3 className="text-center py-10">
                 <a
-                  href="https://poppypads.com/"
+                  href="https://crime-unfolded-new.web.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-700"
@@ -230,7 +232,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <img
-                src="/web2.png"
+                src="/web9.png"
                 className="rounded-lg object-cover border border-black"
                 width={"100%"}
                 height={"100%"}
@@ -247,7 +249,7 @@ export default function Home() {
               /> */}
               <h3 className="text-center py-10">
                 <a
-                  href="https://cuttingedge.iit.ac.lk/"
+                  href="https://findmymovie-b07fd.web.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-700"
@@ -398,7 +400,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <img
-                src="/web8.png"
+                src="/web10.png"
                 className="rounded-lg object-cover border border-black"
                 width={"100%"}
                 height={"100%"}
@@ -415,7 +417,63 @@ export default function Home() {
               /> */}
               <h3 className="text-center py-10">
                 <a
-                  href="https://crime-unfolded-new.web.app/"
+                  href="https://babysonbroadway.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:text-blue-700"
+                >
+                  View Full Site
+                </a>
+              </h3>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <img
+                src="/web2.png"
+                className="rounded-lg object-cover border border-black"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                alt="web1"
+              />
+              {/* <Image
+                src={web7}
+                className="rounded-lg object-cover border border-black"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                alt="web7"
+              /> */}
+              <h3 className="text-center py-10">
+                <a
+                  href="https://cuttingedge.iit.ac.lk/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:text-blue-700"
+                >
+                  View Full Site
+                </a>
+              </h3>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <img
+                src="/web1.png"
+                className="rounded-lg object-cover border border-black"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                alt="web1"
+              />
+              {/* <Image
+                src={web8}
+                className="rounded-lg object-cover border border-black"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                alt="web8"
+              /> */}
+              <h3 className="text-center py-10">
+                <a
+                  href="https://poppypads.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-700"
